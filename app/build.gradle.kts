@@ -12,7 +12,7 @@ android {
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.slatehome.tv"
+        applicationId = "io.github.mattdillioncodes.slatehome"
         minSdk = 26
         targetSdk = 35
         versionCode = 1
