@@ -1,0 +1,37 @@
+# Gradle / Android Studio
+.gradle/
+build/
+/app/build/
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Machine-specific
+local.properties
+
+# Release signing — never commit keys
+keystore.properties
+*.jks
+*.keystore
+
+# Local test screenshots
+shots/
+*.p12
+*.pem
+
+# Secrets / environment
+.env
+.env.*
+
+# Kotlin, IDEs and OS clutter
+.kotlin/
+.vscode/
+.fleet/
+.DS_Store
+
+# Built packages and heap dumps
+*.apk
+*.aab
+*.hprof
